@@ -1,0 +1,44 @@
+         Welcome to the KodeKloud Hands-On lab                                                                                                   
+    __ ______  ____  ________ __ __    ____  __  ______ 
+   / //_/ __ \/ __ \/ ____/ //_// /   / __ \/ / / / __ \
+  / ,< / / / / / / / __/ / ,<  / /   / / / / / / / / / /
+ / /| / /_/ / /_/ / /___/ /| |/ /___/ /_/ / /_/ / /_/ / 
+/_/ |_\____/_____/_____/_/ |_/_____/\____/\____/_____/  
+                                                        
+               All rights reserved                                                                                                               
+bob@caleston-lp10:~$ type git
+git is /usr/bin/git
+bob@caleston-lp10:~$ pwd
+/home/bob
+bob@caleston-lp10:~$ ls
+bob@caleston-lp10:~$ ls /home/bob
+bob@caleston-lp10:~$ cd birds
+-bash: cd: birds: No such file or directory
+bob@caleston-lp10:~$ mkdir Birds
+bob@caleston-lp10:~$ cd /home/bob
+bob@caleston-lp10:~$ pwd
+/home/bob
+bob@caleston-lp10:~$ mkdir birds
+bob@caleston-lp10:~$ ls
+Birds  birds
+bob@caleston-lp10:~$ rm Birds
+rm: cannot remove 'Birds': Is a directory
+bob@caleston-lp10:~$ rm /home/Bob/Birds
+rm: cannot remove '/home/Bob/Birds': No such file or directory
+bob@caleston-lp10:~$ rm Birds
+rm: cannot remove 'Birds': Is a directory
+bob@caleston-lp10:~$ mkdir fish
+bob@caleston-lp10:~$ mkdir fish/salmon
+bob@caleston-lp10:~$ ls
+Birds  birds  fish
+bob@caleston-lp10:~$ mkdir reptile amphibian mammals
+bob@caleston-lp10:~$ mkdir reptile/snake
+bob@caleston-lp10:~$ mkdir reptile/frog
+bob@caleston-lp10:~$ mkdir amphibian/salamander
+bob@caleston-lp10:~$ mkdir birds/eagle
+bob@caleston-lp10:~$ mkdir mammals/elephant
+bob@caleston-lp10:~$ mkdir mammals/monkey
+bob@caleston-lp10:~$ mv /home/bob/reptile/frog /home/bob/amphibian/
+bob@caleston-lp10:~$ mv /home/bob/reptile/snake /home/bob/reptile/crocodile
+bob@caleston-lp10:~$ rm -r /home/bob/reptile
+bob@caleston-lp10:~$ 
